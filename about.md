@@ -10,5 +10,5 @@ Benjamin finished his Masters Degree in Computer Science at the Technical Univer
 
 ### Contact me
 
-- Private: [benmateev@gmail.com](mailto:benmateev@gmail.com)
-- Work: [benjamin@6wunderkinder.com](mailto:benjamin@6wunderkinder.com)
+- [Private](mailto:benmateev@gmail.com)
+- [Work](mailto:benjamin@6wunderkinder.com)
