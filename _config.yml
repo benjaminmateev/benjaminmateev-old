@@ -9,18 +9,16 @@ disqus:
 
 # Includes an icon in the footer for each username you enter
 footer-links:
-  dribbble:
-  email:
-  facebook:
-  flickr:
-  github:
-  instagram:
+  dribbble: benjaminmateev
+  email: benmateev@gmail.com
+  facebook: benjaminmateev
+  github: benjaminmateev
+  instagram: benjaminmateev
   linkedin:
-  pinterest:
   rss: rss
   twitter: benjaminmateev
   stackoverflow:
-  youtube: 
+  youtube:
 
 #
 # !! You don't need to change any of the configuration flags below !!
