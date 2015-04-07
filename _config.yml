@@ -6,7 +6,6 @@ google_analytics: UA-1137676-7
 avatar: https://avatars2.githubusercontent.com/u/172429?v=3&u=c05c11ba81ba84ba60380126b9a9a6caef77351a&s=140
 disqus:
 
-
 # Includes an icon in the footer for each username you enter
 footer-links:
   dribbble: benjaminmateev
@@ -23,7 +22,6 @@ footer-links:
 #
 # !! You don't need to change any of the configuration flags below !!
 #
-
 markdown: redcarpet
 highlighter: pygments
 permalink: /:title/
