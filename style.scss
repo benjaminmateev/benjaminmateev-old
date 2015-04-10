@@ -284,6 +284,69 @@ footer {
   text-align: center;
 }
 
+// This is the about page
+
+body.about {
+  background: url(images/me2.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  font-family: 'Lato', sans-serif;
+}
+
+#about {
+  width: 420px;
+  margin-left: 50px;
+  margin-top: 30px;
+}
+
+#about h1,h2 {
+  color: rgba(255,255,255,0.8);
+  font-weight: 400;
+  margin-bottom: 5px;
+  font-family: 'Oswald', sans-serif;
+}
+
+#about h1 {
+  font-size: 30px;
+}
+
+#about h2 {
+  font-size: 28px;
+}
+
+#about p {
+  color: rgba(255,255,255,0.8);
+  font-weight: 300;
+  font-size: 22px;
+  line-height: 30px;
+  margin-bottom: 40px;
+  -webkit-font-smoothing: antialiased;
+}
+
+#about a {
+  color: #fff;
+  font-weight: 400;
+  text-decoration: none;
+  border-bottom: 1px solid rgba(255,255,255,0.3);
+}
+
+#about a:hover {
+  color: #fff;
+  border-bottom: 1px solid rgba(255,255,255,0.8);
+}
+
+#about strong { font-weight: 400; }
+
+@media (max-width: 767px) {
+  #about {
+    width: auto;
+    margin: 0 auto;
+    padding: 5px;
+  }
+}
+
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
 @import "highlights";
