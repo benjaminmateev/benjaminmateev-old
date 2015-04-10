@@ -4,19 +4,22 @@
 //
 
 // Colors
-$blue: #4183C4;
+$blue: #4183c4;
 
 // Grays
 $black: #000;
-$darkerGray: #222;
-$darkGray: #333;
+$darker-gray: #222;
+$dark-gray: #333;
 $gray: #666;
-$lightGray: #eee;
+$light-gray: #eee;
 $white: #fff;
+
+$white-transparent: rgba(255, 255, 255, .8);
+$white-more-transparent: rgba(255, 255, 255, .3);
 
 // Font stacks
 $lato: 'Lato', sans-serif;
-$georgia: Georgia, serif;
+$oswald: 'Oswald', sans-serif;
 
 // Mobile breakpoints
 @mixin mobile {
