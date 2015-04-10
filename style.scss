@@ -1,21 +1,14 @@
 ---
 ---
 
-//
 // IMPORTS
+
+@import 'reset';
+@import 'variables';
+
 //
-
-@import "reset";
-@import "variables";
-// Syntax highlighting @import is at the bottom of this file
-
-/**************/
-/* BASE RULES */
-/**************/
-
-html {
-  font-size: 100%;
-}
+// BASE RULES
+//
 
 body {
   background: $white;
