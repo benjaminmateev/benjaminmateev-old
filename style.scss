@@ -129,6 +129,13 @@ img {
   font-style: italic;
 }
 
+.back {
+  text-align: center;
+  a {
+
+  }
+}
+
 ::selection {
   background: $light-gray;
   color: $black;
