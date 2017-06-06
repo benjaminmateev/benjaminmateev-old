@@ -21,6 +21,9 @@ $white-more-transparent: rgba(255, 255, 255, .3);
 $lato: 'Lato', sans-serif;
 $baskerville: 'Libre Baskerville', serif;
 
+$opensans: 'Open Sans', sans-serif;
+$prata: 'Prata', serif;
+
 // Mobile breakpoints
 @mixin mobile {
   @media screen and (max-width: 640px) {
