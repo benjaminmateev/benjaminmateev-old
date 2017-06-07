@@ -8,9 +8,6 @@
     <!--[if lt IE 9]>
       <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
-
-    <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
     
     <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
     <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
@@ -50,5 +47,20 @@
     </div>
 
     {% include analytics.html %}
+
+    <script>
+      WebFontConfig = {
+        google: {
+          families: ['Open Sans', 'Prata']
+        }
+      };
+
+      (function (d) {
+        var wf = d.createElement('script'), s = d.scripts[0];
+        wf.src = 'https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js';
+        wf.async = true;
+        s.parentNode.insertBefore(wf, s);
+      })(document);
+    </script>
   </body>
 </html>
